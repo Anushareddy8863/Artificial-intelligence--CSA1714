@@ -1,0 +1,16 @@
+
+# Decision Tree program
+
+def decision_tree(weather):
+    if weather == "sunny":
+        return "Play"
+    elif weather == "rainy":
+        return "Stay Home"
+    else:
+        return "Play Indoors"
+
+weather = input("Enter weather (sunny/rainy/cloudy): ").lower()
+
+result = decision_tree(weather)
+
+print("Decision:", result)
