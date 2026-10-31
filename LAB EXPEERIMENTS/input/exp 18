@@ -1,0 +1,11 @@
+student(101, akhil).
+student(102, ravi).
+
+teacher(t1, ramesh).
+teacher(t2, suresh).
+
+subject(cse101, programming).
+subject(cse102, database).
+
+teaches(ramesh, programming).
+teaches(suresh, database).
