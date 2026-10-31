@@ -1,0 +1,9 @@
+mammal(dog).
+mammal(cat).
+
+has_hair(dog).
+has_hair(cat).
+
+animal(X) :-
+    mammal(X),
+    has_hair(X).
