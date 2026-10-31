@@ -1,0 +1,3 @@
+person(akhil, '2007-05-29').
+person(ravi, '2006-10-15').
+person(rahul, '2007-01-20').
